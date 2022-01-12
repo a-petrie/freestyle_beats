@@ -6,4 +6,4 @@ diff .yturls .downloaded | awk 'NR>1{ print $2 }' >> .downloaded
 
 git add .yturls
 git commit -m "adding new beats"
-git push
+git push origin main
